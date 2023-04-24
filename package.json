@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "build:clean": "rm -r ./build",
+    "start": "node ./build/spotify-minutes-calculator.js"
+  },
   "devDependencies": {
     "@types/node": "^18.16.0"
   }
